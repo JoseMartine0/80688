@@ -29,14 +29,14 @@
             const src = url+parametro+size
             return `
             <figure>
-                <img src="https://picsum.photos/id/$(parametro)/200/200" alt="">
-                <figcaption id="a1">$(parametro)</figcaption>
+                <img src="https://picsum.photos/id/${parametro}/200/200" alt="">
+                <figcaption id="a1">${parametro}</figcaption>
             </figure>
             `
         }
         console.log(picture())
 
-        app.innerHTML = picture(1) + picture(2) + picture(3) + picture(4)
+        app.innerHTML = picture(1) + picture(2) + picture(3) + picture(4) + picture(5)
 
     </script>
 
