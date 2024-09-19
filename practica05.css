@@ -8,3 +8,8 @@ figure{
     text-align: center;
 
 }
+
+.redonda{
+    border-radius: 15px 50px 100px 75px;
+
+}
