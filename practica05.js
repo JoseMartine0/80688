@@ -23,7 +23,7 @@ const picture = parametro => {
 
     const lista = document.querySelectorAll("img")
     for (let i = 0; i < lista.length; i++) {
-        lista[i].addEventListener("click", (evento) => {evento.target.classList.toggle("redonda")}) 
+        lista[i].addEventListener("mouseenter", (evento) => {evento.target.classList.toggle("redonda")}) 
         //lista[i].addEventListener("click", miFuncion)      
     }
 
