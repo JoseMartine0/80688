@@ -1,0 +1,9 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    height: 3rem;
+}
